@@ -15,6 +15,18 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <id>akasten</id>
+            <name>Andreas Kasten</name>
+        </developer>
+        <developer>
+            <id>gpickl</id>
+            <name>Gabriel Pickl</name>
+            <email>gabriel.pickl@researchstudio.at</email>
+        </developer>
+    </developers>
+
     <scm>
         <connection>scm:git:git@github.com/researchstudio-sat/signingframework.git</connection>
         <developerConnection>scm:git:git@github.com/researchstudio-sat/signingframework.git</developerConnection>
