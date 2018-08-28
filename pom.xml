@@ -4,9 +4,22 @@
     <groupId>at.researchstudio.sat</groupId>
     <artifactId>signingframework</artifactId>
     <packaging>jar</packaging>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <name>signingframework</name>
     <url>https://github.com/researchstudio-sat/signingframework</url>
+    <licenses>
+        <license>
+            <name>The GNU Lesser General Public License, Version 3.0</name>
+            <url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com/researchstudio-sat/signingframework.git</connection>
+        <developerConnection>scm:git:git@github.com/researchstudio-sat/signingframework.git</developerConnection>
+        <url>https://github.com/researchstudio-sat/signingframework</url>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
