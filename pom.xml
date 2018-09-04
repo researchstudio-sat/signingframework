@@ -3,7 +3,7 @@
     <groupId>at.researchstudio.sat</groupId>
     <artifactId>signingframework</artifactId>
     <packaging>jar</packaging>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <name>signingframework</name>
     <url>https://github.com/researchstudio-sat/signingframework</url>
     <licenses>
@@ -30,7 +30,7 @@
         <connection>scm:git:git@github.com:researchstudio-sat/signingframework.git</connection>
         <developerConnection>scm:git:git@github.com:researchstudio-sat/signingframework.git</developerConnection>
         <url>https://github.com/researchstudio-sat/signingframework</url>
-        <tag>HEAD</tag>
+        <tag>signingframework-1.2</tag>
     </scm>
 
     <properties>
