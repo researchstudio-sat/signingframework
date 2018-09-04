@@ -35,7 +35,7 @@ public class SignatureVerifier {
 	 * Verify a file using a X.509 certificate
 	 * 
 	 * @param path path to a file containing graph data
-	 * @param publicKey a public key for signature verification
+	 * @param cert a public key for signature verification
 	 * @return  true if successfully verified, false otherwise
 	 */
 	public static boolean verify(String path, X509Certificate cert) throws Exception{
@@ -53,8 +53,8 @@ public class SignatureVerifier {
 	/**
 	 * Verify graph collection using a X.509 certificate
 	 * 
-	 * @param path path to a file containing graph data
-	 * @param publicKey a public key for signature verification
+	 * @param gc
+	 * @param cert a public key for signature verification
 	 * @return  true if successfully verified, false otherwise
 	 */
 	public static boolean verify(GraphCollection gc, X509Certificate cert) throws Exception {
@@ -66,7 +66,7 @@ public class SignatureVerifier {
 	 * Verify a graph collection using a public key
 	 * A graph collection can only be verified if it contains just a signature graph at root level and nothing else!
 	 * 
-	 * @param path path to a file containing graph data
+	 * @param gc
 	 * @param publicKey a public key for signature verification
 	 * @return  true if successfully verified, false otherwise
 	 * @throws Exception  if full verification failed

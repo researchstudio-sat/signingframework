@@ -259,7 +259,7 @@ public class Triple implements Comparable<Triple> {
 	 * Compare this triple with another triple
 	 * used for sorting, lexicographic order, ignores annotations
 	 * 
-	 * @param 			triple to compare with
+	 * @param 			t triple to compare with
 	 * @return			value expressing relation of the triples
 	 */
 	public int compareTo(Triple t) {
