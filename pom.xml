@@ -6,6 +6,7 @@
     <version>1.4-SNAPSHOT</version>
     <name>signingframework</name>
     <url>https://github.com/researchstudio-sat/signingframework</url>
+    <description>signingframework is a Java library for signing nested RDF graphs.</description>
     <licenses>
         <license>
             <name>The GNU Lesser General Public License, Version 3.0</name>
